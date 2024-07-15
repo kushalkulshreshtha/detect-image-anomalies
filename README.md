@@ -2,7 +2,7 @@
 
 ## Steps:
 
-1. Data Preparation: Base image data was taken form Logo 2k-plus dataset ( https://github.com/Wangjing1551/Logo-2k-plus-Dataset?tab=readme-ov-file ). To create the flawed data, 2000 random images were sampled and 3 kinds of anomalies were introduced using OpenCV (smudge, blur and crack)
+1. Data Preparation: Base image data was taken form Logo 2k-plus dataset ( https://github.com/Wangjing1551/Logo-2k-plus-Dataset?tab=readme-ov-file ). To create the flawed data, 2000 random images were sampled and 3 kinds of anomalies were introduced using OpenCV (smudge, blur and crack). The sampled and prepared data is stored under data folder. The script is [prepare_data.py](prepare_data.py)
    
 2. Model training: Vision transformer's pretrained model was taken from HuggingFace, and only last 3 layers were fine-tuned to our task. 87% accuracy was recorded on validation data only after 3 epochs of training!
 
