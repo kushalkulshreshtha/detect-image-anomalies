@@ -12,9 +12,12 @@ https://colab.research.google.com/drive/1ceVU3YzonQvNnDamPK4ojsb2Ci7O7xG7?usp=sh
 
 
 **Data source:**
+
+```
 @inproceedings{Wang2020Logo2K,
 author={Jing Wang, and Weiqing Min, and Sujuan Hou, and Shengnan Ma, and Yuanjie Zheng, and Haishuai Wang, and Shuqiang Jiang},
 booktitle={AAAI Conference on Artificial Intelligence. Accepted},
 title={{Logo-2K+:} A Large-Scale Logo Dataset for Scalable Logo Classification},
 year={2020}
 }
+```
